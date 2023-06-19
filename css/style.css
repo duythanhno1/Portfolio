@@ -129,3 +129,27 @@
     width: 1440px;
     height: 960px;
 }
+
+.technologies {
+    background: url(../images/top-rec.png) no-repeat top left, url(../images/bot-rec.png) no-repeat bottom right, black;
+}
+
+.container {
+    width: 90%;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.yellow {
+    background: #F6DF03;
+}
+
+.col-10 {
+    width: 83.33%;
+}
