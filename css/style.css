@@ -142,12 +142,14 @@
 .technologies {
   background: url(../images/top-rec.png) no-repeat top left,
     url(../images/bot-rec.png) no-repeat bottom right, black;
+  width: 1440px;
 }
 
 .whatwedo {
   background: url(../images/top-rec.png) no-repeat top left,
     url(../images/bot-rec.png) no-repeat bottom right,
     url(../images/logo.png) no-repeat 96.7% 94%, black;
+  width: 1440px;
 }
 
 .container {
@@ -303,6 +305,7 @@
 .owl-nav {
   position: relative;
   left: 80%;
+  width: 200px;
 }
 
 .technologies img:hover {
@@ -343,4 +346,14 @@
   100% {
     text-shadow: 0 0 5px #fff;
   }
+}
+
+button:hover {
+  background: #f6df03;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+button {
+  transition: 0.5s ease-in-out;
 }
