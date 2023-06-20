@@ -282,6 +282,10 @@
   align-items: flex-start;
 }
 
+.flex-end {
+  align-items: flex-end;
+}
+
 .bg-black {
   background: black;
 }
@@ -356,4 +360,112 @@ button:hover {
 
 button {
   transition: 0.5s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.span-yellow {
+  color: rgba(252, 252, 16, 0.862);
+}
+
+.home-contact-us {
+  height: 960px;
+  width: 1440px;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("../images/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  100% {
+    background-image: url("../images/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.home-contact-content {
+  padding: 20% 10%;
+  display: flex;
+  max-width: 500px;
+  height: 400px;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.button a {
+  padding: 0 10%;
+  display: flex;
+  width: 500px;
+  height: 100%;
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.total-project {
+  display: flex;
+  width: 1440px;
+  background: black;
+}
+
+.total-project-content {
+  width: 720px;
+  height: 960px;
+  animation: animater 5s ease-in-out infinite;
+}
+@keyframes animater {
+  0% {
+    background-image: url("../images/total-project-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  100% {
+    background-image: url("../images/total-project-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.total-project-content-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 30px;
+}
+
+.total-project-content-2 h1 {
+  font-size: 40px;
+  color: #f6df03;
+}
+.total-project-content-2 p {
+  display: flex;
+
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 50px;
 }
