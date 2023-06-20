@@ -1,7 +1,7 @@
 $('.owl-member').owlCarousel({
   items: 1,
   nav: true,
-  dots: true,
+  dots: false,
   margin: 100,
   loop: true,
   autoplay: true,

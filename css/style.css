@@ -319,6 +319,7 @@
   position: relative;
   left: 80%;
   width: 200px;
+  margin-bottom: 100px;
 }
 
 .technologies img:hover {
