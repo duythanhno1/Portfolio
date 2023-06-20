@@ -271,7 +271,11 @@
 }
 
 .space-around {
-    justify-content: space-around;
+    justify-content:center;
+}
+
+.align-item {
+    align-items: flex-start;
 }
 
 .bg-black {
