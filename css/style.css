@@ -132,11 +132,22 @@
   }
 }
 
-.slider {
+
+.slideshow-container {
   position: absolute;
-  top: 960px;
   width: 1440px;
-  height: 960px;
+  top: 960px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.active {
+  display: block;
 }
 
 .technologies {
@@ -337,9 +348,11 @@
   0% {
     text-shadow: 0 0 5px #fff;
   }
+
   50% {
     text-shadow: 0 0 20px #ff00de, 0 0 50px #ff00de;
   }
+
   100% {
     text-shadow: 0 0 5px #fff;
   }
