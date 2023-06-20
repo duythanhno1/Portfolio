@@ -24,7 +24,7 @@
 
 .pr {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 1920px;
   top: 0px;
   background: #0e1316;
@@ -134,7 +134,7 @@
 
 .slideshow-container {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   top: 960px;
   position: relative;
   margin: auto;
@@ -151,18 +151,18 @@
 .technologies {
   background: url(../images/top-rec.png) no-repeat top left,
     url(../images/bot-rec.png) no-repeat bottom right, black;
-  width: 1440px;
+  width: 100%;
 }
 
 .whatwedo {
   background: url(../images/top-rec.png) no-repeat top left,
     url(../images/bot-rec.png) no-repeat bottom right,
     url(../images/logo.png) no-repeat 96.7% 94%, black;
-  width: 1440px;
+  width: 100%;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
 }
 
 .d-grid {
@@ -384,7 +384,7 @@ button {
 
 .home-contact-us {
   height: 960px;
-  width: 1440px;
+  width: 100%;
   animation: animate 5s linear infinite;
 }
 
@@ -437,7 +437,7 @@ button {
 
 .total-project {
   display: flex;
-  width: 1440px;
+  width: 100%;
   background: black;
 }
 
