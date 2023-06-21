@@ -553,3 +553,741 @@ button {
 .justify {
   text-align: justify;
 }
+
+.aboutus .img {
+  width: 130.91px;
+  height: 130.91px;
+}
+
+.img2 {
+  width: 555px;
+  height: 440px;
+}
+
+.pl120 {
+  padding-left: 120px;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.fs10 {
+  font-size: 10px;
+}
+
+.lh12 {
+  line-height: 12px;
+}
+
+.text-middle {
+  text-align: center;
+}
+
+.advantage .img1 {
+  width: 399.63px;
+  height: 245.17px;
+}
+
+.advantage .img2 {
+  width: 296px;
+  height: 269px;
+}
+
+.mb200 {
+  margin-bottom: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #f6df03;
+}
+
+.overlay-container .overlay {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.overlay-container {
+  position: relative;
+}
+
+.text {
+  color: black;
+  font-family: "sans";
+  font-size: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.overlay-container:hover .text {
+  display: none;
+  transition: 2s;
+}
+
+/* .about-us {
+  position: absolute;
+  left: 0px;
+  top: 1917px;
+  width: 1440px;
+  height: 960px;
+  background-color: #171717;
+}
+
+.rectangle-45 {
+  position: absolute;
+  width: 87px;
+  height: 183px;
+  background: #f6df03;
+}
+
+.about-us > h1 {
+  position: absolute;
+  left: 106px;
+  top: 136px;
+  width: 210px;
+  height: 62px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #f6df03;
+}
+
+.about-us > p {
+  position: absolute;
+  width: 435px;
+  height: 73px;
+  left: 106px;
+  top: 301px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.about-us > h2 {
+  position: absolute;
+  width: 360px;
+  height: 62px;
+  top: 353px;
+  left: 864px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #f6df03;
+}
+
+.about-us > img {
+  position: absolute;
+  width: 555px;
+  height: 440px;
+  top: 419px;
+  left: 106px;
+}
+
+.team-member-1 {
+  position: absolute;
+  width: 649.75px;
+  height: 164.73px;
+  top: 472px;
+  left: 720px;
+}
+
+.member-1 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+}
+
+.member-1 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-1 > h1 {
+  position: absolute;
+  width: 64px;
+  height: 12px;
+  top: 138.89px;
+  left: 33.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-1 > p {
+  position: absolute;
+  width: 31px;
+  height: 12px;
+  top: 152.73px;
+  left: 49.955px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-2 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+  left: 172.95px;
+}
+
+.member-2 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-2 > h1 {
+  position: absolute;
+  width: 91px;
+  height: 12px;
+  top: 138.89px;
+  left: 19.955px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-2 > p {
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  top: 152.73px;
+  left: 46.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-3 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+  left: 345.9px;
+}
+
+.member-3 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-3 > h1 {
+  position: absolute;
+  width: 81px;
+  height: 12px;
+  top: 138.89px;
+  left: 24.955px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+.member-3 > p {
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  top: 152.73px;
+  left: 46.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-4 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+  left: 518.75px;
+}
+
+.member-4 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-4 > h1 {
+  position: absolute;
+  width: 87px;
+  height: 12px;
+  left: 21.955px;
+  top: 138.89px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-4 > p {
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  top: 152.73px;
+  left: 46.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-member-2 {
+  position: absolute;
+  width: 515.12px;
+  height: 164.73px;
+  top: 694px;
+  left: 787px;
+}
+
+.member-5 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+}
+
+.member-5 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-5 > h1 {
+  position: absolute;
+  width: 79px;
+  height: 12px;
+  left: 25.955px;
+  top: 138.89px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-5 > p {
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  top: 152.73px;
+  left: 46.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-6 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+  left: 192.11px;
+}
+
+.member-6 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-6 > h1 {
+  position: absolute;
+  width: 90px;
+  height: 12px;
+  left: 20.455px;
+  top: 138.89px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-6 > p {
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  top: 152.73px;
+  left: 46.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-7 {
+  position: absolute;
+  width: 130.91px;
+  height: 164.73px;
+  left: 384.22px;
+}
+
+.member-7 > img {
+  position: absolute;
+  width: 130.91px;
+  height: 130.91px;
+  border-radius: 67%;
+}
+
+.member-7 > h1 {
+  position: absolute;
+  width: 89px;
+  height: 12px;
+  left: 20.955px;
+  top: 138.89px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.member-7 > p {
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  top: 152.73px;
+  left: 46.455px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.57864px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.rectangle-47 {
+  position: absolute;
+  width: 294px;
+  height: 39px;
+  background: #f6df03;
+  top: 921px;
+  left: 1146px;
+}
+
+.content {
+  position: absolute;
+  width: 1440px;
+  height: 960px;
+  left: 0px;
+  top: 2874px;
+  background: #171717;
+}
+
+.content > h1 {
+  position: absolute;
+  width: 323px;
+  height: 60px;
+  top: 148px;
+  left: 559px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #f6df03;
+}
+
+.mission {
+  display: inline-block;
+  position: absolute;
+  top: 223px;
+  left: 87px;
+}
+
+.mission > img {
+  position: absolute;
+  width: 401px;
+  height: 244.01px;
+}
+
+.mission > p {
+  padding: 98.82px 136.87px 101.18px 136.13px;
+  background-color: #f6df03;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.7559px;
+  line-height: 45px;
+  color: #171717;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.mission > p:hover {
+  display: none;
+  opacity: 0.7;
+}
+
+.vision {
+  display: inline-block;
+  position: absolute;
+  top: 224px;
+  left: 525px;
+}
+
+.vision > img {
+  position: absolute;
+  width: 394.9px;
+  height: 245.16px;
+}
+
+.vision > p:hover {
+  display: none;
+}
+
+.vision > p {
+  padding: 99px 145.82px 101.17px 145.81px;
+  background-color: #f6df03;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.7559px;
+  line-height: 45px;
+  color: #171717;
+  position: absolute;
+}
+
+.target {
+  display: inline-block;
+  position: absolute;
+  top: 223px;
+  left: 961px;
+}
+
+.target > img {
+  position: absolute;
+  width: 397.51px;
+  height: 244.21px;
+}
+
+.target > p:hover {
+  display: none;
+}
+
+.target > p {
+  padding: 99px 153.35px 100.22px 139px;
+  background-color: #f6df03;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.7559px;
+  line-height: 45px;
+  color: #171717;
+  position: absolute;
+}
+
+.content > h2 {
+  position: absolute;
+  width: 323px;
+  height: 60px;
+  left: 562px;
+  top: 526px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #f6df03;
+}
+
+.strength {
+  display: inline-block;
+  position: absolute;
+  top: 604px;
+  left: 87px;
+}
+
+.strength > img {
+  position: absolute;
+  width: 295.52px;
+  height: 269px;
+}
+
+.strength > p:hover {
+  display: none;
+}
+
+.strength > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #171717;
+  padding: 111px 72px 111px 72px;
+  background-color: #f6df03;
+  position: absolute;
+}
+
+.weakness {
+  display: inline-block;
+  position: absolute;
+  top: 604px;
+  left: 413px;
+}
+
+.weakness > img {
+  position: absolute;
+  width: 295.43px;
+  height: 269px;
+}
+
+.weakness > p:hover {
+  display: none;
+}
+
+.weakness > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #171717;
+  padding: 111px 58px 111px 59px;
+  background-color: #f6df03;
+  position: absolute;
+}
+
+.opportunity {
+  display: inline-block;
+  position: absolute;
+  top: 604px;
+  left: 739px;
+}
+
+.opportunity > img {
+  position: absolute;
+  height: 269px;
+  width: 295.69px;
+}
+
+.opportunity > p:hover {
+  display: none;
+}
+
+.opportunity > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #171717;
+  padding: 111px 39px 111px 40px;
+  background-color: #f6df03;
+  position: absolute;
+}
+
+.threat {
+  display: inline-block;
+  position: absolute;
+  top: 604px;
+  left: 1065px;
+}
+
+.threat > img {
+  position: absolute;
+  height: 269px;
+  width: 295.3px;
+}
+
+.threat > p:hover {
+  display: none;
+}
+
+.threat > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #171717;
+  padding: 111px 90px 111px 91px;
+  background-color: #f6df03;
+  position: absolute;
+} */
