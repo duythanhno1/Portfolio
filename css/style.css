@@ -69,7 +69,51 @@
   height: 970px;
   background: #171717;
 }
+.box {
+  position: absolute;
+  width: 141.63px;
+  height: 39.16px;
+  left: 120px;
+  top: 148px;
 
+}
+
+.retangle-box {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 1.52952px solid #FFFFFF;
+  border-radius: 19.5779px;
+}
+
+.retangle-box:hover {
+  box-sizing: border-box;
+  position: absolute;
+  width: 760px;
+}
+
+.img-box {
+  position: relative;
+  left: 5.83%;
+  right: 75.14%;
+  top: 21.88%;
+  bottom: 9.3%;
+  pointer-events: none;
+}
+.search-box{
+  background: none;
+}
+.vector-box {
+  position: absolute;
+  left: 27.86%;
+  right: 12.31%;
+  top: 86.72%;
+  bottom: 13.28%;
+  border: 1.52952px solid #FFFFFF;
+}
 .slideshow-container-product {
   display: flex;
   flex-direction: column;
