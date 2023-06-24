@@ -34,8 +34,6 @@
   position: absolute;
   width: 87px;
   height: 96px;
-  left: 0px;
-  top: 0px;
   background: #f6df03;
 }
 
@@ -191,7 +189,6 @@
   position: absolute;
   width: 924.42px;
   height: 217px;
-  left: calc(50% - 924.42px / 2 + 0.21px);
   top: calc(50% - 217px / 2 - 496px);
 }
 
@@ -217,15 +214,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-<<<<<<< HEAD
-=======
-}
 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
->>>>>>> f6cd1646b8db35621a18277f7fe6645ae7b0d5f7
 }
 
 @keyframes textclip {
@@ -234,12 +223,16 @@
   }
 }
 
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 
 .croll {
   position: absolute;
   width: 314px;
   height: 24px;
-  left: calc(50% - 314px / 2);
   top: 900px;
   font-family: "DM Sans";
   font-style: normal;
@@ -725,6 +718,60 @@ button {
 .overlay-container:hover .text {
   display: none;
   transition: 2s;
+}
+
+.screen {
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: auto;
+    height: auto;
+  }
+
+  .logo-baner {
+    width: 100%;
+    height: auto;
+  }
+
+  .slogan {
+    width: 100%;
+    height: auto;
+  }
+
+  .slideshow-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .croll {
+    width: 100%;
+    height: auto;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mySlides {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    left: 385px;
+    top: 50px;
+  }
+
+  .pr {
+    width: auto;
+    height: 1920px;
+  }
 }
 
 /* .about-us {
